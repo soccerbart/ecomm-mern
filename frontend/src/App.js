@@ -12,6 +12,7 @@ import Profilepage from './pages/profilepage/Profilepage';
 import Shippingpage from './pages/shippingpage/Shippingpage';
 import PaymentMethodPage from './pages/payment-method-page/PaymentMethodPage';
 import PlaceOrderPage from './pages/place-order/PlaceOrderPage';
+import Orderpage from './pages/orderpage/Orderpage';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/shipping" component={Shippingpage} />
           <Route path="/payment" component={PaymentMethodPage} />
           <Route path="/placeorder" component={PlaceOrderPage} />
+          <Route path="/order/:id" component={Orderpage} />
           <Route path="/profile" component={Profilepage} />
           <Route path="/product/:id" component={Productpage} />
           <Route path="/cart/:id?" component={Cartpage} />
