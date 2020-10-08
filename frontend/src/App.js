@@ -35,10 +35,21 @@ const App = () => {
           <Route path="/admin/userlist" component={UserListPage} />
           <Route path="/admin/user/:id/edit" component={UserEditPage} />
           <Route path="/product/:id" component={Productpage} />
-          <Route path="/admin/productlist" component={ProductListPage} />
+          <Route path="/admin/productlist" component={ProductListPage} exact />
+          <Route
+            path="/admin/productlist/:pageNumber"
+            component={ProductListPage}
+            exact
+          />
           <Route path="/admin/orderlist" component={OrderListPage} />
           <Route path="/admin/product/:id/edit" component={ProductEditPage} />
           <Route path="/cart/:id?" component={Cartpage} />
+          <Route path="/search/:keyword" component={Homepage} exact />
+          <Route path="/page/:pageNumber" component={Homepage} />
+          <Route
+            path="/search/:keyword/page/:pageNumber"
+            component={Homepage}
+          />
           <Route path="/" component={Homepage} exact />
         </Container>
       </main>
