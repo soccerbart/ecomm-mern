@@ -1,4 +1,4 @@
-This is a fully functioning Ecommerce website that models a tech/electronics website. 
+This is a fully functioning Ecommerce application that models a tech/electronics website. 
 ---------------------------------
 ![](uploads/mern-ecomm-1.png)
 ---------------------------------
