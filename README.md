@@ -6,7 +6,7 @@ Some features as seen in the images below include a fully integrated shopping ca
 
 Check out the page and interact with it yourself!
 
-https://mernecommapp.herokuapp.com
+https://mernecommapp.herokuapp.com/
 
 ![](uploads/mern-ecomm-1.png)
 ---------------------------------
